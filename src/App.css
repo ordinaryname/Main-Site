@@ -6,8 +6,7 @@
 .header {
   width: 100%;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px 0px;
   display: inline-block;
   background-color: #efefef;
 }
@@ -40,10 +39,12 @@
   text-decoration: none;
   font-size: 20px;
   color: #555555;
+  float: right;
+  padding: 0px 5px;
 }
 
 .menuItem:hover {
-  color: #055055;
+  color: #099099;
 }
 
 .content {
@@ -58,4 +59,28 @@
   font-size: 40px;
   font-weight: bold;
   color: #555555;
+}
+.social_icons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 40px;
+}
+.social_link {
+  text-decoration: none;
+}
+.social_link:hover {
+  text-decoration: none;
+}
+.instagram, .stackoverflow, .github {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 0px 5px;
+  background-color: none;
+}
+.instagram:hover, .stackoverflow:hover, .github:hover {
+  background-color: #eeeeee;
+
 }
